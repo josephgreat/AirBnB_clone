@@ -10,7 +10,7 @@ class BaseModel():
     def __init__(self, *args, **kwargs):
         """create instances"""
         if kwargs:
-            for key, value in kwags.items():
+            for key, value in kwargs.items():
                 if key == '__class__':
                     continue
                 elif key == 'updated_at':
