@@ -1,14 +1,34 @@
-#0x00. AirBnB clone - The console
+![Holberton school logo](https://secure.meetupstatic.com/photos/event/b/c/5/6/highres_475548214.jpeg)
+# AirBnB clone - The console
 
-##Description of Project
-Deploying on my server a simple copy of the AirBnB website, not implementing all the features but some to cover 
-all fundamental concepts of the higher level programming track.
 
-##Description of the Command Intepreter
-A command intepreter to manipulate data without a visual interface, like shell (perfect for development and debugging)
+The AirBnB console this about create a minishell, this console works in interactive and non-interactive mode; this project is just a basic copy of AirBnB, 
 
-###How to start it
+# command interpreter or console
+The first piece is to manipulate a powerful storage system. This storage engine will give us an abstraction between “My object” and “How they are stored and persisted”. This means: from your console code (the command interpreter itself) and from the front-end and RestAPI you will build later, you won’t have to pay attention (take care) of how your objects are stored.
+#  how to start it:
+In order to start the console, you must use the following command: ./console.py
 
-###How to use it
+# How to used:
+- manage (create, update, destroy, etc) objects via a console / command interprete
+- store and persist objects to a file (JSON file)
+- Commands: create, show, destroy, all (shows all), update, help, quit
+### Example how to open:
+```
+$ ./console.py
+(hbnb) help
 
-###Examples
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+```
+
+### Contact Info:
+#### Git: ChristianCampos-55
+
+#### Git: danielj32
