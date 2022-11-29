@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-import cmd, sys
+import cmd
+
 
 class HBNBShell(cmd.Cmd):
     prompt = "(hbnb) "
@@ -10,11 +11,9 @@ class HBNBShell(cmd.Cmd):
 
     def do_EOF(self, arg):
         'Check when a file or line has ended'
-        for line in sys.stdin:
-            if line:
-                pass
-            else:
-                raise EOFError()
+        print('')
+        exit()
+
 
 if __name__ == '__main__':
     HBNBShell().cmdloop()
